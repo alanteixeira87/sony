@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    background:  #252222;
+    
+}
+
+.imagem{
+    width: 129.138px;
+    height: 65px;
+    flex-shrink: 0;
+    
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+    gap: 20px;
+
+
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 46px;
+    padding: 10px;
+    margin: top 10px;
+    
+}
+
+.cabecalho-menu-item {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.833%; /* 29px */
+
+}
+
+
+.conteudo {
+    border-top: 0.4px solid white;
+
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudo-principal-escrito {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items:flex-start;
+    margin: 50px;
+
+
+}
+
+.conteudo-principal-subtitulo {
+    color: #AD7545;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    
+
+}
+
+.conteudo-principal-titulo {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    
+    
+
+
+}
+.conteudo-principal-escrito-paragrafo{
+    color: #FFF;
+
+    text-align:justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    
+}
+
+
+.conteudo-principal-escrito-botao {
+    background-color: #AD7545;
+    width: 243px;
+    height: 64px;
+    
+    border-radius: 15px;
+    border: 1px solid #F3F3F3;
+
+    background: #AD7545;
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.conteudo-principal-imagem {
+    flex-direction: column;
+
+    margin: 50px;
+}
+
+
+.rodape{
+    border-top: 0.4px solid white;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    justify-content: space-between;
+}
+
+.rodape copyright {
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    flex-direction: row;
+    position: relative;
+
+}
